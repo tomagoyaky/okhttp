@@ -60,7 +60,7 @@
     <dependency>
       <groupId>io.netty</groupId>
       <artifactId>netty-codec-http</artifactId>
-      <version>4.0.15.Final</version>
+      <version>4.1.42.Final</version>
     </dependency>
     <!-- Netty needs this if gzip is enabled. -->
     <dependency>
@@ -88,7 +88,7 @@
             <argument>-Xmx512m</argument>
             <commandlineArgs>-Xbootclasspath/p:${bootclasspath}</commandlineArgs>
             <argument>-classpath</argument>
-            <classpath />
+            <classpath/>
             <argument>okhttp3.benchmarks.Benchmark</argument>
           </arguments>
         </configuration>
