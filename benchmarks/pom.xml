@@ -22,7 +22,7 @@
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
-      <version>14.0.1</version>
+      <version>30.0-android</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
@@ -88,7 +88,7 @@
             <argument>-Xmx512m</argument>
             <commandlineArgs>-Xbootclasspath/p:${bootclasspath}</commandlineArgs>
             <argument>-classpath</argument>
-            <classpath />
+            <classpath/>
             <argument>okhttp3.benchmarks.Benchmark</argument>
           </arguments>
         </configuration>
