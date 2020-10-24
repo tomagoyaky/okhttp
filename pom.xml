@@ -53,7 +53,7 @@
     <gson.version>2.2.3</gson.version>
     <apache.http.version>4.2.2</apache.http.version>
     <airlift.version>0.7</airlift.version>
-    <guava.version>16.0</guava.version>
+    <guava.version>r03</guava.version>
     <android.version>4.1.1.4</android.version>
 
     <!-- Test Dependencies -->
